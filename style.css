@@ -1,0 +1,505 @@
+@font-face{
+    font-family:'210OmniGothicCond020';
+    src:url('font/210OmniGothicCond020.woff') format('woff');
+}
+@font-face{
+    font-family:'210OmniGothicCond040';
+    src:url('font/210OmniGothicCond040.woff') format('woff');
+}
+@font-face{
+    font-family:'KoPubWorldBatangBold';
+    src:url('font/KoPubWorldBatangBold.woff') format('woff');
+}
+@font-face{
+    font-family:'KoPubWorldBatangMedium';
+    src:url('font/KoPubWorldBatangMedium.woff') format('woff');
+}
+@font-face{
+    font-family:'210MGothic040';
+    src:url('font/210MGothic040.woff') format('woff');
+}
+@font-face{
+    font-family:'210MGothic050';
+    src:url('font/210MGothic050.woff') format('woff');
+}
+@font-face{
+    font-family:'210MGothic060';
+    src:url('font/210MGothic060.woff') format('woff');
+}
+@font-face{
+    font-family:'210MGothic070';
+    src:url('font/210MGothic070.woff') format('woff');
+}
+*{margin: 0; padding: 0; text-decoration: 0; list-style-type: none;}
+/* background-position-x: center; */
+.container{
+    align-items: auto;
+    position: absolute;
+    height: 6460px;
+    background-color: white;
+    box-shadow: 0px 0px 144px rgba(0, 0, 0, 0.35);
+    transform: translate(-50%, 0%);
+    top: 0%; left: 50%;
+}
+.title{
+    width: 1000px; height: 512.06px;
+    background-size: cover;
+    position: absolute;
+    top: 0%; left: 0%; transform: translate(0%, 0%);
+}
+.title_img{
+    width: 751px; height: 422.06px;
+    background-repeat: no-repeat;
+    background-image: url(img/1.png);
+    background-size: cover;
+    position: relative;
+    top: 0; left: 0; transform: translate(0%, 0%);
+}
+.title_main{
+    width: 751px;
+    font-family: '210OmniGothicCond040', Arial, sans-serif;
+    font-size: 78.13px;
+    text-align: center;
+    top: 336.06px;
+    color: #C74325;
+    position: absolute;
+    text-shadow: 0px 4px 36px black;
+}
+.title_sub{
+    width: 751px; height: 90px;
+    background-color: #C74325;
+    font-family: '210OmniGothicCond020', Arial, sans-serif;
+    font-size: 65.1px;
+    line-height: 104px;
+    text-align: center;
+    margin-top: -5px;
+    color: #0A0A0A;
+}
+.title_script_box{
+    width: 249px; height: 512px;
+    background-color: #474B55;
+    font-family: 'KoPubWorldBatangMedium', Times, serif;
+    font-size: 10.42px;
+    line-height: 18.2px;
+    letter-spacing: 2.5%;
+    align-items: center;
+    text-align: left;
+    color: white;
+    position: relative;
+    top: -512px; left: 751px;
+}
+.title_script{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(22px, 21px);
+}
+.title_script_img_box{
+    width: 212.73px; height: 208.48px;
+    position: absolute;
+    top: 440.94px;
+}
+.title_script_img_caption{
+    position: absolute;
+    left: 17px;
+}
+.title_script_img{
+    position: absolute;
+    left: 23.15px;
+}
+.chapter01_box{
+    overflow: auto;
+    width: 1000px;
+    height: 137px;
+    background-color: #D9D9D9;
+    position: relative;
+    top: 507px;
+    z-index: -1;
+}
+.chapter01_main{
+    width: 523px; height: 121px;
+    font-family: 'KoPubWorldBatangBold', Times, serif;
+    font-size: 39.06px;
+    line-height: 58.3px;
+    text-align: left;
+    color: #0A0A0A;
+    transform: translate(34px, 11px);
+}
+.chapter01{
+    width: 1000px; height: 1015px;
+    position: absolute;
+    top: 644px;
+}
+.chapter01_txt01{
+    width: 526px; height: 181px;
+    position: absolute;
+    top: 27px; left: 34px;
+    font-family: 'KoPubWorldBatangMedium', Times, serif;
+    font-size: 15.63px;
+    line-height: 26px;
+    text-align: left;
+    color: #0A0A0A;
+}
+.chapter01_txt02{
+    width: 526px; height: 208px;
+    position: absolute;
+    top: 274px; left: 34px;
+    font-family: 'KoPubWorldBatangMedium', Times, serif;
+    font-size: 15.63px;
+    line-height: 26px;
+    text-align: left;
+    color: #0A0A0A;
+}
+.chapter01_txt03{
+    width: 526px; height: 182px;
+    position: absolute;
+    top: 555px; right: 34px;
+    font-family: 'KoPubWorldBatangMedium', Times, serif;
+    font-size: 15.63px;
+    line-height: 26px;
+    text-align: left;
+    color: #0A0A0A;
+}
+.chapter01_txt04{
+    width: 526px; height: 155px;
+    position: absolute;
+    top: 794px; right: 34px;
+    font-family: 'KoPubWorldBatangMedium', Times, serif;
+    font-size: 15.63px;
+    line-height: 26px;
+    text-align: left;
+    color: #0A0A0A;
+}
+.chapter01_img01{
+    width: 88px; height: 37px;
+    position: absolute;
+    top: 32px; right: 330px;
+}
+.chapter01_img02{
+    width: 184.71px; height: 134.66px;
+    position: absolute;
+    top: 86.48px; right: 234.04px;
+}
+.chapter01_img03{
+    width: 184.71px; height: 134.66px;
+    position: absolute;
+    top: 86.48px; right: 33.33px;
+}
+.chapter01_img04{
+    width: 88px; height: 15px;
+    position: absolute;
+    top: 289px; right: 330px;
+}
+.chapter01_img05{
+    width: 184.9px; height: 134.9px;
+    position: absolute;
+    top: 332.83px; right: 233.85px;
+}
+.chapter01_img06{
+    width: 184.38px; height: 134.9px;
+    position: absolute;
+    top: 332.71px; right: 33.33px;
+}
+.chapter01_img07{
+    width: 182.73px; height: 182.73px;
+    position: absolute;
+    top: 558.76px; left: 33.33px;
+}
+.chapter01_img08{
+    width: 181.97px; height: 182.48px;
+    position: absolute;
+    top: 558.94px; left: 236px;
+}
+.chapter01_img09{
+    width: 181.97px; height: 182.48px;
+    position: absolute;
+    top: 761.94px; left: 34px;
+}
+.chapter01_img10{
+    width: 182px; height: 182.42px;
+    position: absolute;
+    top: 761.94px; left: 236px;
+}
+.chapter01_cap01{
+    width: 184px; height: 20px;
+    position: absolute;
+    top: 226px; right: 234px;
+    font-family: '210MGothic060', Arial, sans-serif;
+    font-size: 15.63px;
+    line-height: 26px;
+    text-align: right;
+}
+.chapter01_cap02{
+    width: 184px; height: 20px;
+    position: absolute;
+    top: 226px; right: 34px;
+    font-family: '210MGothic060', Arial, sans-serif;
+    font-size: 15.63px;
+    line-height: 26px;
+    text-align: right;
+}
+.chapter01_cap03{
+    width: 184px; height: 21px;
+    position: absolute;
+    top: 472px; right: 234px;
+    font-family: '210MGothic060', Arial, sans-serif;
+    font-size: 15.63px;
+    line-height: 26px;
+    text-align: right;
+}
+.chapter02_box{
+    overflow: auto;
+    width: 1000px;
+    height: 138px;
+    background-color: #D9D9D9;
+    position: relative;
+    top: 1522px;
+    z-index: -1;
+}
+.chapter02_main{
+    width: 523px; height: 121px;
+    font-family: 'KoPubWorldBatangBold', Times, serif;
+    font-size: 39.06px;
+    line-height: 58.3px;
+    text-align: left;
+    color: #0A0A0A;
+    transform: translate(34px, 12px);
+}
+.chapter02_A{
+    width: 1000px; height: 2084px;
+    position: absolute;
+    top: 1797px;
+}
+.chapter02_cap01{
+    width: 275px; height: 327.6px;
+    position: absolute;
+    top: 32.94px; left: 349.48px;
+    font-family: '210OmniGothicCond040', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    transform: translateY(38%);
+    z-index: 5;
+    text-shadow: 0px 4px 24px black;
+}
+.chapter02_cap02{
+    width: 275px; height: 327.6px;
+    position: absolute;
+    top: 558.94px; left: 349px;
+    font-family: '210OmniGothicCond040', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    transform: translateY(35%);
+    z-index: 5;
+    text-shadow: 0px 4px 24px black;
+}
+.chapter02_cap03{
+    width: 275px; height: 327.6px;
+    position: absolute;
+    top: 1057.94px; left: 349px;
+    font-family: '210OmniGothicCond040', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    transform: translateY(38%);
+    z-index: 5;
+    text-shadow: 0px 4px 24px black;
+}
+.chapter02_cap04{
+    width: 275px; height: 327.6px;
+    position: absolute;
+    top: 1603.94px; left: 349px;
+    font-family: '210OmniGothicCond040', Arial, sans-serif;
+    text-align: left;
+    color: white;
+    transform: translateY(36%);
+    z-index: 5;
+    text-shadow: 0px 4px 24px black;
+}
+.chapter02_cap_L{font-size: 41.67px; line-height: 48px;}
+.chapter02_cap_S{font-size: 36.46px; line-height: 42px;}
+.chapter02_txt01{
+    width: 275px; height: 327.6px;
+    position: absolute;
+    top: 162.94px; left: 349px;
+    font-family: '210MGothic040', Arial, sans-serif;
+    font-size: 15.63px;
+    text-align: left;
+    color: white;
+    transform: translateY(35%);
+    z-index: 5;
+    text-shadow: 0px 0px 6px black;
+}
+.chapter02_txt02{
+    width: 275px; height: 327.6px;
+    position: absolute;
+    top: 679.94px; left: 349px;
+    font-family: '210MGothic040', Arial, sans-serif;
+    font-size: 15.63px;
+    text-align: left;
+    color: white;
+    transform: translateY(35%);
+    z-index: 5;
+    text-shadow: 0px 0px 6px black;
+}
+.chapter02_txt03{
+    width: 275px; height: 327.6px;
+    position: absolute;
+    top: 1221.94px; left: 349px;
+    font-family: '210MGothic040', Arial, sans-serif;
+    font-size: 15.63px;
+    text-align: left;
+    color: white;
+    transform: translateY(25%);
+    z-index: 5;
+    text-shadow: 0px 0px 6px black;
+}
+.chapter02_txt04{
+    width: 275px; height: 327.6px;
+    position: absolute;
+    top: 1717.47px; left: 349px;
+    font-family: '210MGothic040', Arial, sans-serif;
+    font-size: 15.63px;
+    text-align: left;
+    color: white;
+    transform: translateY(36%);
+    z-index: 5;
+    text-shadow: 0px 0px 6px black;
+}
+.chapter02_img01{
+    width: 1000px; height: 521px;
+    position: absolute;
+    top: 0px; left: 0px;
+    z-index: 1;
+}
+.chapter02_img02{
+    width: 1000px; height: 522px;
+    position: absolute;
+    top: 519.94px; left: 0px;
+    z-index: 2;
+}
+.chapter02_img03{
+    width: 1000px; height: 522px;
+    position: absolute;
+    top: 1040.94px; left: 0px;
+    z-index: 3;
+}
+.chapter02_img04{
+    width: 1000px; height: 522px;
+    position: absolute;
+    top: 1561.94px; left: 0px;
+    z-index: 4;
+}
+.chapter02_B{
+    width: 1000px; height: 1613px;
+    position: absolute;
+    top: 3880px;
+}
+.chapter02_txt05{
+    width: 419px; height: 790px;
+    position: absolute;
+    top: 62.06px; left: 54px;
+    font-family: 'KoPubWorldBatangMedium', Times, serif;
+    font-size: 15.63px;
+    line-height: 24px;
+    text-align: left;
+    color: #0A0A0A;
+}
+.chapter02_txt06{
+    width: 419px; height: 575px;
+    position: absolute;
+    top: 944px; right: 54px;
+    font-family: 'KoPubWorldBatangMedium', Times, serif;
+    font-size: 15.63px;
+    line-height: 24px;
+    text-align: left;
+    color: #0A0A0A;
+}
+.chapter02_img05{
+    width: 419px; height: 278px;
+    position: absolute;
+    top: 142px; right: 54px;
+}
+.chapter02_img06{
+    width: 419px; height: 278px;
+    position: absolute;
+    top: 494px; right: 54px;
+}
+.chapter02_img07{
+    width: 419px; height: 278px;
+    position: absolute;
+    top: 917px; left: 54px;
+}
+.chapter02_img08{
+    width: 422px; height: 279.99px;
+    position: absolute;
+    top: 1269px; left: 52.5px;
+}
+.chapter03_box{
+    overflow: auto;
+    width: 1000px;
+    height: 138px;
+    background-color: #D9D9D9;
+    position: relative;
+    top: 5218px;
+    z-index: -1;
+}
+.chapter03_main{
+    width: 523px; height: 121px;
+    font-family: 'KoPubWorldBatangBold', Times, serif;
+    font-size: 39.06px;
+    line-height: 58.3px;
+    text-align: left;
+    color: #0A0A0A;
+    transform: translate(34px, 12px);
+}
+.chapter03{
+    width: 1000px; height: 647px;
+    position: absolute;
+    top: 5631px;
+}
+.chapter03_txt01{
+    width: 369px; height: 504px;
+    position: absolute;
+    top: 62.94px; right: 315px;
+    font-family: 'KoPubWorldBatangMedium', Times, serif;
+    font-size: 15.63px;
+    line-height: 24px;
+    text-align: left;
+    color: #0A0A0A;
+}
+.chapter03_img01{
+    width: 209px; height: 504px;
+    position: absolute;
+    top: 62.94px; left: 56px;
+}
+.chapter03_img02{
+    width: 209px; height: 504px;
+    position: absolute;
+    top: 62.94px; right: 54px;
+}
+.footer_box{
+    position: absolute;
+    top: 6278px;
+    background-color: #474B55;
+    width: 100%; height: 177px;
+    font-family: '210MGothic040', Arial, sans-serif;
+    color: white;
+}
+.footer_cap01{
+    width: 176px; height: 24px;
+    position: absolute;
+    top: 35px; left: 32px;
+}
+.footer_cap02{
+    width: 808px; height: 51px;
+    position: absolute;
+    top: 77px; left: 32px;
+}
+.footer_cap_bold{font-family: '210MGothic070', Arial, sans-serif; line-height: 24px;}
+.footer_cap_regular{font-family: '210MGothic040', Arial, sans-serif; line-height: 17px;}
+.footer_cap_L{font-size: 21.88px;}
+.footer_source{
+    width: 104px; height: 18px;
+    position: absolute;
+    top: 138.94px; right: 32px;
+    font-size: 15.63px;
+}
